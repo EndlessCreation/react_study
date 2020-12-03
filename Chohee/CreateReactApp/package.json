@@ -1,0 +1,10 @@
+{
+  "name": "CreateReactApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chohee",
+  "license": "MIT",
+  "dependencies": {
+    "start": "^5.1.0"
+  }
+}
