@@ -1,6 +1,6 @@
 ## 🧚🏻‍♀️ 이씨 홈페이지여 기다려랏 🧚🏻‍♀️
 
-[벨로퍼트씨의 React 강좌](https://velopert.com/reactjs-tutorials)를 보고 스터디한 내용을 기록할 레포입니다. (__by 초희__)
+[벨로퍼트씨의 모던 React 강좌](https://react.vlpt.us/)를 보고 스터디한 내용을 기록할 레포입니다. (__by 초희__)
 
 ### 프로젝트 설명
 
