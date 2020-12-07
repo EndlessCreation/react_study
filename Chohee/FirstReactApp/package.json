@@ -1,0 +1,10 @@
+{
+  "name": "FirstReactApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^4.0.1",
+    "global": "^4.4.0"
+  }
+}
