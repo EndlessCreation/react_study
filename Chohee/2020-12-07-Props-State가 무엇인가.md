@@ -1,4 +1,4 @@
-# 4. Props 와 State 개념에 대해 알아보자.
+# 4. props를 통해 자식 컴포넌트에게 값 전달하기
 
 ✍🏻 [벨로퍼트씨의 리액트 강좌 - 4편](https://velopert.com/3629) 을 참고하여 작성합니다.
 
@@ -52,7 +52,43 @@ export default MyName;
 
 이 외에도 여러 개의 props 전달하기, 비구조화 할당 문법을 사용해서 props 전달하기, default props 전달하기 등 props 사용법이 여러가지가 있으니 [벨로퍼트씨의 모던 리액트 강좌 - 5편](https://react.vlpt.us/basic/05-props.html) 을 보고 알아보자.
 
-> props.children 부터 다시 이어서 보기!
+## 2️⃣ props.children 이해하기
+
+* props = 부모 __컴포넌트의 속성__ 으로 들어가는 값을 자식 컴포넌트에서 받아올 때 사용
+
+* props.children = 부모 컴포넌트의 속성이 아니라 __부모 컴포넌트 태그 사이__ 에 넣은 값을 자식 컴포넌트에서 받아올 때 사용
+
+~~~javascript
+// 자식 컴포넌트
+function Wrapper({ children }) {
+    const divStyle = {
+        border: '2px solid black',
+        padding: '16px'
+    }
+
+    return(
+        <>
+            <dix style={divStyle}>
+                {children}
+            </dix>
+        </>
+    )
+}
+~~~
+~~~javascript
+// 부모 컴포넌트
+function App() {
+  
+    return (
+      <>
+        <Wrapper>
+          <MyName name="김초희"></MyName>
+        </Wrapper>
+      </>
+      
+    ); 
+}
+~~~
 
 ## 🛠 Error Solved
 
@@ -98,3 +134,7 @@ export default MyName;
 이렇게 자식 컴포넌트의 매개변수로 props를 넘겨줘야 하고 this.props.name을 props.name이라고 써야 했다.
 
 --> [여기](https://react.vlpt.us/basic/05-props.html) 참고함
+
+# 끝!
+
+이 내용과 관련된 프로젝트는 PropsStatePracticeApp 이다.
