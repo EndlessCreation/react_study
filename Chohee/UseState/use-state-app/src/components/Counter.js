@@ -12,10 +12,14 @@ function Counter() {
     // button clink event
     const onIncrease = () => {
         setNumber(number + 1)
+        // set 함수 함수형으로 업데이트하기
+        // setNumber(preNumber => preNumber + 1)
         console.log('+1')
     }
     const onDecrease = () => {
         setNumber(number - 1)
+        // set 함수 함수형으로 업데이트하기
+        // setNumber(preNumber => preNumber - 1)
         console.log('-1')
     }
 
