@@ -1,17 +1,22 @@
 import React from 'react';
 
-function User({ user }) {
-    const nicknameStyle = {
-        color: 'darkblue'
+function User({ user, onRemove, onToggle }) {
+    const userStyle = {
+        cursor: 'pointer',
+        color: user.active ? 'green' : 'black'
     }
-    
-    // UserList.js와 User.js로 컴포넌트 분리
+
+    const removeStyle = {
+        color: "red",
+        marginLeft: "16px",
+        border: "none"
+    }
+
     return(
-        <>
-            <div>
-                <b>{user.username}</b> 의 닉네임 알어? <b style={nicknameStyle}>{user.nickname}</b>
-            </div>
-        </>
+        <div>
+            <b style={userStyle} onClick={() => onToggle(user.id)}>{user.username}</b> 의 별명은 뭐게? <b>{user.nickname}</b> 👍🏻 
+            <button onClick={() => onRemove(user.id)} style={removeStyle}> 삭제하기 🗑</button>
+        </div>
     )
 }
 
