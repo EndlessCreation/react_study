@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import UserList from './components/UserList'
 
 function App() {
@@ -29,7 +29,10 @@ function App() {
         username: '신성일',
         nickname: '로봇'
     }
-]
+  ]
+
+  // nextId 라는 변수를 useRef()로 생성함.
+  const nextId = useRef(6);
 
   return (
     <>
