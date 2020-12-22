@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useMemo, useRef, useState } from 'react'
 import CreateUser from './components/CreateUser';
 import UserList from './components/UserList'
 
@@ -55,7 +55,8 @@ function App() {
     const newUser = {
       id: nextId.current,
       username,
-      nickname
+      nickname,
+      active: false
     }
     setUsers(
       users.concat(newUser)
@@ -80,14 +81,22 @@ function App() {
     )
   }
 
+  const activeUserCounts = useMemo(() => countActiveUsers(users), [users]);
+
   return (
     <>
       <div>리액트 스터디원들이 누구누구있겡👩🏻‍💻👨🏻‍💻</div>
       <div>별명두 맞춰바~~!</div>
       <CreateUser username={username} nickname={nickname} onChange={onChange} onCreate={onCreate}/>
       <UserList users={users} onRemove={onRemove} onToggle={onToggle}/>
+      <div>스터디에 활발히 참여하고 있는 사람 수는?: <b>{activeUserCounts}</b> 명!</div>
     </>
   );
+}
+
+function countActiveUsers(users) {
+  console.log('활성 사용자 수 세는 중..');
+  return users.filter(user => user.active === true).length;
 }
 
 export default App;
