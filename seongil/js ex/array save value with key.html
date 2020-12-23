@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form name="myForm">
+		필드1 <input type="text" name="a0"><br />
+		필드2 <input type="text" name="a1"><br />
+		필드3 <input type="text" name="a2"><br />
+		<input type="button" value="초기화" onclick="init();">
+
+	</form>
+	<script type="text/javascript">
+		function init() {
+			for(var i = 0; i<3; i++) {
+				document.myForm['a' + i].value = i;
+			}
+		}
+	</script>
+</body>
