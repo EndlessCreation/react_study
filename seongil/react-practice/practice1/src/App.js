@@ -55,6 +55,7 @@ function reducer(state, action) {
 }
 
 export const UserDispatch = React.createContext(null);
+
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
 

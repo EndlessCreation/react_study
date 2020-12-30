@@ -1,0 +1,8 @@
+1. function CreateUser( { username, email, onChange, onCreate })
+
+ 여기 인수부분을 
+
+ function CreateUser( {username, email, onChange, onCreate})
+ 
+ 이렇게 붙이면 안됨.
+ 이유는 모르겠는데 안됨.
