@@ -1,9 +1,9 @@
 import React from "react";
 
 function User({ user }) {
-  if (!user) {
-    return <div>로딩중 ...</div>;
-  }
+  // if (!user) {
+  //  return <div>로딩중 ...</div>;
+  // }
   return (
     <div>
       <div>
