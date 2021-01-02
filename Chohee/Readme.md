@@ -45,3 +45,11 @@
 20. [커스텀 Hook 만들기](https://github.com/EndlessCreation/react_study/blob/main/Chohee/2020-12-28-20-%EC%BB%A4%EC%8A%A4%ED%85%80-Hook-%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
 
 21. [Context API를 사용해서 전역 값 관리하기](https://github.com/EndlessCreation/react_study/blob/main/Chohee/2020-12-28-21-context-API%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%A0%84%EC%97%AD%EA%B0%92%EA%B4%80%EB%A6%AC.md)
+
+22. [Immer를 사용한 더 쉬운 불변성 관리하기](https://github.com/EndlessCreation/react_study/blob/main/Chohee/2020-12-30-22-Immer%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EB%8D%94%EC%89%AC%EC%9A%B4-%EB%B6%88%EB%B3%80%EC%84%B1%EA%B4%80%EB%A6%AC.md)
+
+23. [LifeCycle 메소드](https://github.com/EndlessCreation/react_study/blob/main/Chohee/2020-12-30-23-LifeCycle-%EB%A9%94%EC%86%8C%EB%93%9C.md)
+
+24. [componentDidCatch로 에러잡기](https://github.com/EndlessCreation/react_study/blob/main/Chohee/2020-12-30-24-componentDidCatch%EB%A1%9C-%EC%97%90%EB%9F%AC%EC%9E%A1%EA%B8%B0.md)
+
+25. [리액트 개발을 할 때 사용하면 편한 Prettier, ESLint, Snippet](https://github.com/EndlessCreation/react_study/blob/main/Chohee/2021-01-02-25-Prettier-ESLint-Snippet.md)
