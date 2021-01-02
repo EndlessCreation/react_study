@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import User from './components/User';
+import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   const user = {
@@ -9,9 +10,9 @@ function App() {
   };
 
   return (
-    <>
-      <User user={user}/>
-    </>
+    <ErrorBoundary>
+      <User />
+    </ErrorBoundary>
   );
 }
 
