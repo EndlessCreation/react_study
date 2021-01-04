@@ -1,5 +1,7 @@
 # 25. 리액트 개발을 할 때 사용하면 편한 Prettier, ESLint, Snippet
 
+✍🏻 [벨로퍼트씨의 모던 리액트 강좌 - 27편](https://react.vlpt.us/basic/27-useful-tools.html) 을 참고하여 작성합니다.
+
 ## 1️⃣ VS code에 연동해서 사용하면 좋은 것들
 
 - **[Prettier](https://prettier.io/)**
