@@ -26,3 +26,11 @@
 - 17 . [useMemo를 사용하여 연산한 값 재사용](17_useMemo.md)
 - 18 . [useCallback을 사용하여 함수 재사용하기](18_useCallback.md)
 - 19 . [React.memo를 사용하여 컴포넌트 리렌더링 방지](19_Reactmemo.md)
+- 20 . [useReducer 를 사용하여 상태 업데이트 로직 분리하기](20_useReducer.md)
+- 21 . [커스텀 Hooks 만들기](21_customHook.md)
+- 22 . [Context API를 사용한 전역 값 관리](22_ContextAPI.md)
+- 23 . [Immer를 사용한 더 쉬운 불변성 관리](23_Immer.md)
+
+### 2장 리액트 컴포넌트 스타일링하기
+
+- [CSS Module](2_2_CSSModule.md)
