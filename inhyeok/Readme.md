@@ -34,3 +34,4 @@
 ### 2장 리액트 컴포넌트 스타일링하기
 
 - [CSS Module](2_2_CSSModule.md)
+- [styled-components](2_3_styled-components.md)
